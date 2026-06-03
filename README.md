@@ -28,4 +28,4 @@ This feature has not been officially published in the production version of the 
 
 ## Video Demo
 
-[Watch Demo Video](./assets/diagram_agent_demo.mp4)
+https://github.com/user-attachments/assets/56efc747-9c1c-4fa8-a15b-d1fdf1d28d32
