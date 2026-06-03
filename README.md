@@ -29,3 +29,22 @@ This feature has not been officially published in the production version of the 
 ## Video Demo
 
 https://github.com/user-attachments/assets/56efc747-9c1c-4fa8-a15b-d1fdf1d28d32
+
+## Benchmark
+
+The evaluation pipeline was fully automated and internally developed for testing the multi-agent system behavior and diagram generation workflow.
+
+- Total conversations tested: 50
+- Total QA pairs: 141
+- Candidate model: GPT-5.4 mini
+
+| Metric                              | Result    |
+| ----------------------------------- | --------- |
+| Good Routing                        | 96.45%    |
+| Good Answer                         | 91.49%    |
+| Diagram Schema Validity             | 100.0%    |
+| Tool Calling Correctness            | 93.24%    |
+| Unexpected Tool Calling Rate        | 0.0%      |
+| Average TTFT (Chat Profiles 0+3)    | 2113 ms   |
+| Average TTFT (Diagram Profiles 1+2) | 3249 ms   |
+| Structured Data Quality             | 8.74 / 10 |
